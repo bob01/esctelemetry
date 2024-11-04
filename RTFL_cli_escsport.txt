@@ -1,0 +1,54 @@
+diff
+
+# version
+# Rotorflight / STM32G47X (SG47) 4.3.0 May 15 2024 / 09:07:49 (05570fe) MSP API: 12.6
+
+# start the command batch
+batch start
+
+board_name MATEKG474HELI
+board_design RTFL
+manufacturer_id MTKS
+
+# name: escsport
+
+# resources
+resource ADC_BATT 1 NONE
+resource ADC_BEC 1 A04
+
+# feature
+feature ESC_SENSOR
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 1 1024 115200 57600 0 115200
+serial 2 32 115200 57600 0 115200
+
+# master
+set acc_hardware = NONE
+set acc_calibration = 1943,528,-1709,1
+set mag_hardware = NONE
+set baro_hardware = NONE
+set serialrx_provider = SBUS
+set use_unsynced_pwm = ON
+set motor_poles = 14,8,8,8
+set bat_capacity = 6000
+set vbat_max_cell_voltage = 420
+set vbat_warning_cell_voltage = 345
+set current_meter = ESC
+set battery_meter = ESC
+set gov_mode = OFF
+set pid_process_denom = 2
+set esc_sensor_protocol = SCORPION
+set gyro_1_align_pitch = 1800
+set gyro_1_align_yaw = 1800
+set name = escsport
+
+profile 0
+
+rateprofile 0
+
+# end the command batch
+batch end
+
+# 
