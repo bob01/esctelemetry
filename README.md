@@ -70,4 +70,23 @@ TODO: Tele image
 ![image](https://github.com/user-attachments/assets/57e2d293-617f-4900-b589-c2054ae41361)
 
 ### On the transmitter
-TODO
+- power up Tx, Rx and ESC
+- discover new sensors, the ESC supplied sensors like VFAS, Current, Fuel etc should appear
+- there may be duplicates e.g. temp, RPM etc - delete what you don't need<br>Note: both main and tail rotor RPM are reported as 'RPM', power the motor briefly to see which one responds - delete the others
+![image](https://github.com/user-attachments/assets/d0003743-2df4-4d11-988c-39cb26d118cb)
+- the 'mAh' current consumption sensor may not have been auto discovered
+  - create a DIY sensor
+  - click 'AutoDetect' and select the sensor with ID 5250
+  - set decimals, units and range as shown
+![image](https://github.com/user-attachments/assets/21518c6c-47f7-4f74-8f31-06db4b5d4436)
+![image](https://github.com/user-attachments/assets/5d9a7ae7-9c02-4d39-92e3-ef8fe7a62dbb)
+
+### Done
+These sensors can be displayed with widgets, used for alarms etc just like any other sensor.<br>
+Enjoy.
+
+![image](https://github.com/user-attachments/assets/6a26386b-b592-4cf9-a8bf-195bdf8196fd)
+![image](https://github.com/user-attachments/assets/e8503767-69d2-400a-87ea-052b7ada6a7a)
+
+
+
