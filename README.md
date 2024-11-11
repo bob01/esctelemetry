@@ -24,14 +24,15 @@ TODO: Tele image
   - this connection will power the FC
 - connect the ESC's telemetry signal and optionally the -ve/gnd, omit the +ve *this WILL damage certain setups*
 
-### The hardware
+### Hardware
 - solder pins to the FC
-  - RX2: 2-pin signal+gnd
+  - RX2: 2-pin signal+gnd, again: the +ve pin is removed to avoid possible damage
   - TX3: 3-pin
-  ![image](https://github.com/user-attachments/assets/ce2c73af-364c-4798-8e5b-c6b16d7c5de1)
+  - unused / unwanted pins are easily pressed / pulled out of the header with pliers etc.
+![image](https://github.com/user-attachments/assets/ce2c73af-364c-4798-8e5b-c6b16d7c5de1)
 ![image](https://github.com/user-attachments/assets/2e61563e-ef2a-433b-ad23-9bace3d8ba95)
 
-### The firmware
+### Firmware
 - install RotorFlight 2.0 using the RotorFlight configurator, if already installed skip to configuration
 ![image](https://github.com/user-attachments/assets/52785324-c523-4f01-8e00-82688117d3f6)
 ![image](https://github.com/user-attachments/assets/f56faef1-715e-4f5f-82e1-51d351a15f62)
@@ -67,6 +68,7 @@ TODO: Tele image
 - install securely anywhere
 - connect the ESC telemetry cable to the 2-pin RX2 port
 - connect the 3-pin TX3 port to a port on the FrSky Rx that's been configured to accept s.port
+![image](https://github.com/user-attachments/assets/688ae2a3-0594-4aba-ac8c-c73a3ac49f37)
 ![image](https://github.com/user-attachments/assets/57e2d293-617f-4900-b589-c2054ae41361)
 
 ### On the transmitter
