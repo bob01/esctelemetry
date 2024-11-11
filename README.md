@@ -68,3 +68,6 @@ TODO: Tele image
 - connect the ESC telemetry cable to the 2-pin RX2 port
 - connect the 3-pin TX3 port to a port on the FrSky Rx that's been configured to accept s.port
 ![image](https://github.com/user-attachments/assets/57e2d293-617f-4900-b589-c2054ae41361)
+
+### On the transmitter
+TODO
