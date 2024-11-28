@@ -10,13 +10,15 @@ We use bettery capacity/consumption telemetry info to maximize flighttime and vo
 So much better than flying by a timer.
 This project addresses this need and is now standard equipment in my new builds.
 
-### Available telemetry sensors (Scorpion ESC used here)
-TODO: Tele image
-
 ### Requirements
 - an ESC w/ telemetry supported by RotorFlight (YGE, Scorpion, HobbyWing, Kontronik ...)
 - small RotorFlight flight controller (FC) - e.g. [Matek G474-HLITE](https://www.mateksys.com/?portfolio=g474-hlite), it's 30x23x13mm 9g
 - RotorFlight 2.0 (release 4.3.0) firmware - install using the [configurator](https://github.com/rotorflight/rotorflight-configurator/releases/tag/release%2F2.0.0)
+
+### Caution
+- some powersafe receivers e.g. the FrSky TD SR18 don't like power from an external source to appear on the +ve of the servo bus
+  - removing the +ve lead from the ESC telemetry lead to the FC avoids this
+  - also best to disconnect the FC from the Rx if connecting the FC to a computer w/ a USB cable (should not be necessary after initial configuration)
 
 ### The connections
 - connect the FC with a 3 pin servo cable to one of the FrSky Rx's s.port ports
