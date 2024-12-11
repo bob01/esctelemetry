@@ -10,6 +10,9 @@ We use bettery capacity/consumption telemetry info to maximize flighttime and vo
 So much better than flying by a timer.
 This project addresses this need and is now standard equipment in my new builds.
 
+### Release notes
+- 2024.12.10 - revised to accept power from Rx on port labled RX2 w/ VBT bridged to Vx (thanks Ben)
+
 ### Requirements
 - an ESC w/ telemetry supported by RotorFlight (YGE, Scorpion, HobbyWing, Kontronik ...)
 - small RotorFlight flight controller (FC) - e.g. [Matek G474-HLITE](https://www.mateksys.com/?portfolio=g474-hlite), it's 30x23x13mm 9g
