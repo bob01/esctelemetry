@@ -18,7 +18,6 @@ This project addresses this need and is now standard equipment in my new builds.
 ### Caution
 - some powersafe receivers e.g. the FrSky TD SR18 don't like power from an external source to appear on the +ve of the servo bus
   - removing the +ve lead from the ESC telemetry lead to the FC avoids this
-  - also best to disconnect the FC from the Rx if connecting the FC to a computer w/ a USB cable (should not be necessary after initial configuration)
 
 ### The connections
 - connect the FC with a 3 pin servo cable to one of the FrSky Rx's s.port ports
@@ -28,9 +27,8 @@ This project addresses this need and is now standard equipment in my new builds.
 
 ### Hardware
 - solder pins to the FC
-  - RX2: 2-pin signal+gnd, again: the +ve pin is removed to avoid possible damage
-  - TX3: 3-pin
-  - unused / unwanted pins are easily pressed / pulled out of the header with pliers etc.
+  - RX2: 3-pin w/ bridge between VBT and adjacent Vx
+  - RX3: 2-pin signal+gnd, again: the +ve pin is removed to avoid possible damage
 ![image](https://github.com/user-attachments/assets/ce2c73af-364c-4798-8e5b-c6b16d7c5de1)
 ![image](https://github.com/user-attachments/assets/2e61563e-ef2a-433b-ad23-9bace3d8ba95)
 
@@ -62,8 +60,8 @@ This project addresses this need and is now standard equipment in my new builds.
 
 ### Installation
 - install securely anywhere
-- connect the ESC telemetry cable to the 2-pin RX2 port
-- connect the 3-pin TX3 port to a port on the FrSky Rx that's been configured to accept s.port
+- connect the ESC telemetry cable to the 2-pin RX3 port
+- connect the 3-pin RX2 port to a port on the FrSky Rx that's been configured to accept s.port
 ![image](https://github.com/user-attachments/assets/688ae2a3-0594-4aba-ac8c-c73a3ac49f37)
 ![image](https://github.com/user-attachments/assets/57e2d293-617f-4900-b589-c2054ae41361)
 
