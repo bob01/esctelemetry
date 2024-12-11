@@ -32,8 +32,12 @@ This project addresses this need and is now standard equipment in my new builds.
 - solder pins to the FC
   - RX2: 3-pin w/ bridge between VBT and adjacent Vx
   - RX3: 2-pin signal+gnd, again: the +ve pin is removed to avoid possible damage
-![image](https://github.com/user-attachments/assets/ce2c73af-364c-4798-8e5b-c6b16d7c5de1)
-![image](https://github.com/user-attachments/assets/2e61563e-ef2a-433b-ad23-9bace3d8ba95)
+![image](https://github.com/user-attachments/assets/fa35a123-bfec-491e-9a25-8da37c666e18)
+![image](https://github.com/user-attachments/assets/9d9a6420-f58a-4172-bae1-869f298a1f72)
+![image](https://github.com/user-attachments/assets/35b6e4d3-de91-447d-965e-f52b1f13384c)
+![image](https://github.com/user-attachments/assets/34a8832a-caa5-481d-a223-452b6e793b8b)
+![image](https://github.com/user-attachments/assets/7ed86e01-4f01-4703-b073-eb7b1f4c31fc)
+![image](https://github.com/user-attachments/assets/35888c19-0848-4bde-98de-00fdca65a4fc)
 
 ### Firmware
 - install RotorFlight 2.0 using the RotorFlight configurator, if already installed skip to configuration<br>
@@ -65,7 +69,7 @@ This project addresses this need and is now standard equipment in my new builds.
 - install securely anywhere
 - connect the ESC telemetry cable to the 2-pin RX3 port
 - connect the 3-pin RX2 port to a port on the FrSky Rx that's been configured to accept s.port
-![image](https://github.com/user-attachments/assets/688ae2a3-0594-4aba-ac8c-c73a3ac49f37)
+![image](https://github.com/user-attachments/assets/caad0cd7-78fc-4231-be68-71dd67d8ab18)
 ![image](https://github.com/user-attachments/assets/57e2d293-617f-4900-b589-c2054ae41361)
 
 ### On the transmitter
