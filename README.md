@@ -21,6 +21,12 @@ This project addresses this need and is now standard equipment in my new builds.
 ### Caution
 - some powersafe receivers e.g. the FrSky TD SR18 don't like power from an external source to appear on the +ve of the servo bus
   - removing the +ve lead from the ESC telemetry lead to the FC avoids this
+ 
+### ESC
+Some ESCs need to be told which protocol to use, e.g.
+- Scorpion - set the ESC to "UNSC (Unsolicited)" telemetry mode
+- YGE - set the ESC to "OpenYGE" telemetry mode
+- See [RotorFlight ESC Telemetry](https://www.rotorflight.org/docs/Tutorial-Setup/ESC-Telemetry) for more info if needed
 
 ### The connections
 - connect the FC with a 3 pin servo cable to one of the FrSky Rx's s.port ports
