@@ -11,6 +11,8 @@ So much better than flying by a timer.
 This project addresses this need and is now standard equipment in my new builds.
 
 ### Release notes
+- 2025.03.01 - Great news! Scorpion Tribunus III v16 FW now natively supports s.port, exposing ESC voltage, current, consomption, temperature and RPM<br>
+No word yet if this feature will come to older Tribunus II ESC so for I will continue to use this for my Trib II planes
 - 2024.12.10 - revised to accept power from Rx on port labled RX2 w/ VBT bridged to Vx (thanks Ben)
 
 ### Requirements
